@@ -3,12 +3,20 @@
  */
 'use strict';
 
+//var db = {
+//    host:"127.0.0.1",
+//    name:"random",
+//    username:"root",
+//    password:"",
+//    table:"traffic"
+//};
+
 var db = {
-    host:"127.0.0.1",
-    name:"random",
+    host:"192.168.1.110",
+    name:"its_server",
     username:"root",
-    password:"",
-    table:"traffic"
+    password:"pwd",
+    table:"tb_camerainfo"
 };
 
 exports.mysql = {
